@@ -40,3 +40,8 @@ echo ${length}
 length=${#persons[*]}
 echo ${length}
 
+## 传递参数
+echo $0 # 当前脚本名
+echo $1 # 参数1，依次类推
+echo $2
+echo $3
